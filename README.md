@@ -1,5 +1,8 @@
 # HIGHSCORE : 75 by ME -- Who Else could it be ??? #
 
+Avant tout :
+
+`brew install sdl2 sdl2_image sdl2_ttf`
 
 # Snake with Rick and Morty has theme #
 
