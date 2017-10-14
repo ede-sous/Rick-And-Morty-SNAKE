@@ -1,4 +1,4 @@
-# HIGHSCORE : 58 by ME -- Who Else could it be ??? #
+# HIGHSCORE : 75 by ME -- Who Else could it be ??? #
 
 
 # Snake with Rick and Morty has theme #
