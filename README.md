@@ -3,7 +3,7 @@
 First thing to do :
 
 `brew install sdl2 sdl2_image sdl2_ttf`
-(ofc install brew if you don't have it)
+(ofc install brew if you don't have it https://brew.sh/index_fr.html )
 
 Then :
 `make && ./fun`
