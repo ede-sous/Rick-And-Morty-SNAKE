@@ -34,7 +34,8 @@ static void			Game_Over_Images(t_fun *fun)
 
 static void			Game_Over_Text(t_fun *fun)
 {
-	TTF_SizeText(Fttf.font2, ft_strjoin(ft_strjoin("You created ", ft_itoa(Mouses_Eaten(2)), 0), " Meeseeks", 0), &Fttf.pos.w, &Fttf.pos.h);
+	Fttf.pos.w = W_WIDTH - (W_WIDTH / 4);
+	Fttf.pos.h = 200;
 	Fttf.pos.x = (W_WIDTH / 2) - (Fttf.pos.w / 2);
 	Fttf.pos.y = (W_HEIGHT / 2) - (Fttf.pos.h / 2);
 	if (!(Fttf.surface = TTF_RenderText_Blended(Fttf.font2, ft_strjoin(ft_strjoin("You created ", ft_itoa(Mouses_Eaten(2)), 0), " Meeseeks", 0), Fttf.lava)))
