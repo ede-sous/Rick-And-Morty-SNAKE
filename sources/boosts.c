@@ -131,22 +131,24 @@ void               Expand_One(t_fun *fun)
 	Expand_Snake(fun);
 }
 
-void                Random_Boost(t_fun *fun)
+void				Random_Boost(t_fun *fun)
 {
-	int             random;
+	int				random;
+	int				fy;
 
 	random = (rand() % 26);
-	if (random == 25)
+	fy = Mouses_Eaten(2);
+	if (random == 25 || (fy > (Fhs.highscore / 2) && random >= 20 && random <= 26))
 		Boost_Speed(1, fun);
 	else if (random == 16)
 		Boost_Speed(2, fun);
-	else if (random == 22)
-		Expand_More(fun);
-	else if (random == 9)
+	else if (random == 9 || (fy > ((2 * Fhs.highscore) / 3) && random < 8))
 		Take_Half_Body(fun);
+	else if (random == 8)
+		Expand_More(fun);
 	else if (random == 10)
 		Take_One_Out(fun);
-	else if (random == 8)
+	else if (random == 22)
 		Expand_Half(fun);
 	else
 		Expand_One(fun);
