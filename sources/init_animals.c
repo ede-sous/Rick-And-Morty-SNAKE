@@ -134,7 +134,7 @@ static void       Init_GameOver(t_fun *fun)
     fun->ww.pos_back.h = W_HEIGHT;
     fun->ww.pos_back.x = 0;
     fun->ww.pos_back.y = 0;
-    fun->ww.sur_back = IMG_Load(".img/game_over_back.jpg");
+    fun->ww.sur_back = IMG_Load(".img/game_over_back.png");
     fun->ww.text_back = SDL_CreateTextureFromSurface(FRendering, fun->ww.sur_back);
 }
 

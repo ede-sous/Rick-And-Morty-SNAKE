@@ -105,7 +105,7 @@ static void		 Download_Everything(void)
 	-O https://raw.githubusercontent.com/ede-sous/Rick-and-Morty-Snake-Stock/master/.img/Arial.ttf \
 	-O https://raw.githubusercontent.com/ede-sous/Rick-and-Morty-Snake-Stock/master/.img/background.jpg \
 	-O https://raw.githubusercontent.com/ede-sous/Rick-and-Morty-Snake-Stock/master/.img/game_over.png \
-	-O https://raw.githubusercontent.com/ede-sous/Rick-and-Morty-Snake-Stock/master/.img/game_over_back.jpg \
+	-O https://raw.githubusercontent.com/ede-sous/Rick-and-Morty-Snake-Stock/master/.img/game_over_back.png \
 	-O https://raw.githubusercontent.com/ede-sous/Rick-and-Morty-Snake-Stock/master/.img/menu_back.jpg \
 	-O https://raw.githubusercontent.com/ede-sous/Rick-and-Morty-Snake-Stock/master/.img/mouse.png \
 	-O https://raw.githubusercontent.com/ede-sous/Rick-and-Morty-Snake-Stock/master/.img/pause.png \
